@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    /* background-color: black; */
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.your_namecls{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.location{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.language{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.comment2{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+h1{
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="your_namecls">
+        <form action='/process' method='post'>
+            <label for='name'>Your Name:</label>
+            <input  type='text' name='name'>
+        </div>
+        <div class="location">
+            <label for="location">Location</label>
+            <select name="dojo_location" id="dojo_location">
+                <option value="chicago">Chicago</option>
+                <option value="indianapolis">indianapolis</option>
+                <option value="pasadena">Pasadena</option>
+                <option value="lagos">Lagos</option>
+                <option value="Ibadan">Ibadan</option>
+            </select>
+        </div>
+        <div class="language">
+            <label for="language">Favorite Language</label>
+            <select name="language" id="language">
+                <option value="python">python</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="javascript">Javascript</option>
+            </select>
+        </div>
+        <div class="comment2">
+            <label for="language">Write a comment</label>
+            <textarea type='text' name="comment"></textarea>
+        </div>
+        <div class="submit-btn">
+            <a href="results.html"><input type='Submit' name='name'></a>
+        </div>
+        </form>
+            
+        </div>
+
+
+</body>
+</html>
